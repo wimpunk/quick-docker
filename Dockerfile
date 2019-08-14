@@ -20,6 +20,9 @@ RUN apt-get update \
         mc \
 	vim \
 	bash-completion \
+	groff \
+        man \
+        less \
     && apt-get clean
 
 RUN apt-get -y upgrade \
