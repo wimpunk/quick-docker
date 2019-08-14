@@ -18,9 +18,9 @@ RUN apt-get update \
     && apt-get -y --no-install-recommends install \
         git \
         mc \
-	vim \
-	bash-completion \
-	groff \
+        vim \
+        bash-completion \
+        groff \
         man \
         less \
     && apt-get clean
