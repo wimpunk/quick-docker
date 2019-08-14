@@ -22,4 +22,6 @@ RUN apt-get update \
 	bash-completion \
     && apt-get clean
 
+RUN apt-get -y upgrade \
+    && apt-get clean
 
