@@ -1,7 +1,7 @@
 FROM debian:buster
 
 LABEL maintainer="wimpunk@gmail.com"
-LABEL version="1.3"
+LABEL version="1.4"
 
 RUN echo "deb http://security.debian.org/ buster/updates main" >> /etc/apt/sources.list
 
