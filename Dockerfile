@@ -1,9 +1,9 @@
-FROM debian:buster
+FROM debian:bookworm
 
 LABEL maintainer="wimpunk@gmail.com"
-LABEL version="1.4"
+LABEL version="1.5"
 
-RUN echo "deb http://security.debian.org/ buster/updates main" >> /etc/apt/sources.list
+# RUN echo "deb http://security.debian.org/ buster/updates main" >> /etc/apt/sources.list
 
 RUN apt-get update \
     && apt-get -yqqf --no-install-recommends install \
